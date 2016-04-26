@@ -1,6 +1,8 @@
-/*
-Bridge code for Mars UPV's jetpack concept prop. Developed for NASA SpaceApps 2016.
+/* NASA SpaceApps 2016
+ Mars UPV Team
+ Bridge code for Mars UPV's jetpack concept prop. Developed for NASA SpaceApps 2016.
  http://www.marsupv.com/
+ Shared under GNU GPL 3 http://www.gnu.org/licenses/gpl-3.0.en.html
  */
 
 import oscP5.*;
@@ -38,8 +40,8 @@ void setup() {
 void draw()
 {
     if (serial_port.available()>0)//Waits for input
-    {     
-        read_string=serial_port.readStringUntil(10);   //Reads until line break                  
+    {
+        read_string=serial_port.readStringUntil(10);   //Reads until line break
         if (read_string!=null)//If data is valid...
         {
             String[] sep=split(read_string, ',');//Split the data by commas

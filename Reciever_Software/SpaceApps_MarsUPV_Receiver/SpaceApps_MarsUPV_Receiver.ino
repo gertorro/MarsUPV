@@ -1,5 +1,5 @@
 /*NASA SpaceApps 2016
- Mars UPV Team
+ Mars UPV Team  http://www.marsupv.com/
  Code for Teensy 3.2 recieviing info through HWSerial 1 from a Bluetooth Serial bridge.
  Emulates a HID device and a Serial port for KSP controlling and Unity data connections.
  Shared under GNU GPL 3 http://www.gnu.org/licenses/gpl-3.0.en.html
@@ -86,4 +86,3 @@ else
 
   }
 }
-
