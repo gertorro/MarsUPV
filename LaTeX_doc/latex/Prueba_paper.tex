@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage{amsmath,graphicx}
+\usepackage{url}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage[labelformat=simple]{subcaption}
+\usepackage{calc}
+\usepackage{enumitem}
+\usepackage{kantlipsum}
+\usepackage{array}
+
+\newcommand\Mark[1]{\textsuperscript#1}
+
+\begin{document}
+\onecolumn
+\begingroup
+\centering
+{\LARGE The Title \\[1.5em]
+\large First Author\Mark{1}, Second Author\Mark{2}, Third Author\Mark{1}, Fourth Author\Mark{2} and Fifth Author\Mark{3}}\\[1em]
+\begin{tabular}{*{2}{>{\centering}p{.25\textwidth}}}
+\Mark{1}Department1 & \Mark{2}Department2 \tabularnewline
+School1 & School2  \tabularnewline
+\url{email1} & \url{email2}
+\end{tabular}\par
+\twocolumn
+\endgroup
+
+\begin{abstract}
+This text should be back in two columns
+\end{abstract}
+
+\end{document}

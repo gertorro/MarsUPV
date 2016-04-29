@@ -1,0 +1,15 @@
+[0] Config.pm:340> INFO - This is Biber 2.4
+[1] Config.pm:343> INFO - Logfile is 'Jet_pack_propulsion_study.blg'
+[31] biber-MSWIN64:287> INFO - === 
+[48] Biber.pm:347> INFO - Reading 'Jet_pack_propulsion_study.bcf'
+[144] Biber.pm:741> INFO - Found 6 citekeys in bib section 0
+[160] Biber.pm:3150> INFO - Processing section 0
+[243] Biber.pm:3307> INFO - Looking for bibtex format file 'ref.bib' for section 0
+[246] bibtex.pm:1124> INFO - Decoding LaTeX character macros into UTF-8
+[249] bibtex.pm:985> INFO - Found BibTeX data source 'ref.bib'
+[387] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[388] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[388] Biber.pm:3027> INFO - Sorting list 'none/global' of type 'entry' with scheme 'none' and locale 'en-US'
+[388] Biber.pm:3031> INFO - No sort tailoring available for locale 'en-US'
+[398] bbl.pm:519> INFO - Writing 'Jet_pack_propulsion_study.bbl' with encoding 'ascii'
+[402] bbl.pm:615> INFO - Output to Jet_pack_propulsion_study.bbl
